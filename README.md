@@ -12,9 +12,9 @@ Microsoft PowerBi was the tool used for the data cleaning, data processing, data
 - Import Customers,Geolocation,Order_items, Order_payments, Order_reviews, Orders, Products, Sellers, Product Categories datasets to the application.
 - To clean the data, we need to click on transform in home tab which will take us to the Power pivot.
 ####	In Power pivot for each Datasets: -
-1.	First and foremost is to check for heading or else promote headers.
-2.	Check the Datatype of the columns then specify the datatype of each column, specially check with the date columns and change the type according to the need.
-3.	Identify the Primary keys for each dataset and then remove the duplicate, error, empty rows in the primary key column.
+- First and foremost is to check for heading or else promote headers.
+- Check the Datatype of the columns then specify the datatype of each column, specially check with the date columns and change the type according to the need.
+- Identify the Primary keys for each dataset and then remove the duplicate, error, empty rows in the primary key column.
 - Click on close and apply so the changed dataset it will load to PowerBi Desktop.
 - In PowerBi desktop in data pane we can see the loaded datasets click on the column of the datasets then we can see the column tools ribbon, in which we can define Datatype, Format, Summarization, Data Categories for the columns repeat the same function to all the datasets to clearly define which type of data it is specially for the zip code, latitude, longitude, state, country etc.
 - In Powerbi desktop we need to establish a connection between datasets that contain Primary key of one table to the Foreign Key that is present in another table in a snowflake schema.
